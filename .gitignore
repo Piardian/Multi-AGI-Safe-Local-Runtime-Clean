@@ -1,0 +1,24 @@
+# Secrets and machine-specific settings
+.env
+.env.*
+!.env.example
+.browser-profile/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Runtime data and local traces
+logs/
+task_memory.jsonl
+*.log
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,17 @@
+# Runtime dependencies
+# Install with: python -m pip install -r requirements.txt
+
+# Optional API provider
+groq>=0.11.0
+
+# Environment variables (.env)
+python-dotenv>=1.0.0
+
+# Localhost-only web UI
+Flask>=3.0.0
+
+# Optional browser-backed legacy providers
+playwright>=1.40.0
+
+# Terminal colors
+colorama>=0.4.6
